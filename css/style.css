@@ -1,0 +1,554 @@
+@font-face {
+    font-family: HK Grotesk;
+    src: url(../fonts/HKGrotesk-Regular.otf);
+}
+
+:root {
+    --link-color: #fff;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: HK Grotesk;
+}
+
+header,
+section {
+    overflow-x: hidden;
+
+}
+
+header a:hover {
+    color: #fff !important;
+}
+
+.company-navbar {
+    background-color: #03062f;
+}
+
+.nav-link-header {
+    color: var(--link-color);
+    font-family: HK Grotesk;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.header-content-left {
+    padding: 15% 0;
+}
+
+.header-img {
+    background-image: url(../assets/Home\ back.png);
+    height: 750px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-img {
+        background-image: url(../assets/Home\ back.png);
+        height: 750px;
+        background-size: 100% 750px;
+        background-repeat: no-repeat;
+    }
+
+    .main-section {
+        margin-top: 120px;
+    }
+}
+
+.header-content {
+    padding: 10px;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+}
+
+.header-content-right {
+    text-align: center;
+}
+
+.united-states {
+    margin: 0 10px;
+}
+
+header .nav-item {
+    padding: 0 10px;
+}
+
+header .btn-sign {
+    width: 115px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #528FF0;
+
+}
+
+header .header-title {
+    width: 410px;
+    height: 106px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+}
+
+header .header-details {
+    width: 380px;
+    height: 84px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+header .btn-sign:hover {
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #528FF0;
+}
+
+header .btn-login {
+    width: 81px;
+    height: 42px;
+    background: #030F3F;
+    color: #fff;
+    border: 1px solid #2B83EA;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+header .btn-login:hover {
+    background: #030F3F;
+    color: #fff;
+    border: 1px solid #2B83EA;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+header .sign-up-now {
+    width: 125px;
+    height: 48px;
+    background: #2783F3;
+    border-radius: 2px;
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+header button {
+    border-radius: 5px;
+}
+
+.dot-images {
+    position: absolute;
+    width: 15%;
+    transition: 0.5s;
+    z-index: -2;
+    top: 650px;
+}
+
+.custom-indicators {
+    bottom: unset;
+
+}
+
+.custom-indicators img {
+    height: 30px;
+    width: 30px;
+}
+
+.custom-indicators .img-fluid {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    color: var(--link-color);
+}
+
+.carousel-item img {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+}
+
+.main-right-content {
+    width: 515px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main-right-heading {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+}
+
+main .card-header {
+    font-family: HK Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 2px 8px;
+}
+
+main .card-body {
+    font-family: HK Grotesk;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 8px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    position: relative;
+
+}
+
+main .card-body p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    font-family: HK Grotesk;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #545C5F;
+    width: 100px;
+
+}
+
+
+.card {
+    border: 1px solid #D8E0E2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #D8E0E2 !important;
+    margin-bottom: 8px;
+}
+
+main .card:hover {
+    border: none !important;
+    background: #fff !important;
+    ;
+    border-color: #fff !important;
+    box-shadow: none;
+    color: #545C5F !important;
+    border: 1px solid #D8E0E2 !important;
+}
+
+main .card:active,
+main .card:focus {
+    border: none !important;
+    background: #fff !important;
+    ;
+    border: 1px solid #202324 !important;
+    box-shadow: none;
+    color: #202324 !important;
+}
+
+main .star-rating {
+    margin: -2px 8px;
+}
+
+main .rating {
+    display: flex;
+}
+
+.new-color .label-heading {
+    border-radius: 6px 6px 0 0;
+    margin: 0;
+    height: 16px;
+    width: 100%;
+    background: #DE742D;
+}
+
+.limited-release .label-heading {
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    height: 16px;
+    background: #A07EDC;
+    margin: 0;
+
+}
+
+.btn-add-to-cart button {
+    background: #00BA74;
+    font-family: HK Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 24px 0;
+
+}
+
+.btn-add-to-cart button img {
+    padding: 0 15px;
+}
+
+main .desc-heading {
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 14px;
+    padding-top: 12px;
+
+}
+
+main .desc-sub-section {
+    font-family: HK Grotesk;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    display: flex;
+    margin-left: 30px;
+}
+
+main .trevapay {
+    margin-left: 3px;
+    width: 65px;
+    height: 16px;
+    background: #B1FBE3;
+    border-radius: 8px;
+    font-family: HK Grotesk;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+main .product-detail li {
+    list-style: none;
+    background: url(../assets/check_circle_black_24dp\ 1.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.6rem;
+    color: #34393A;
+    opacity: 0.9;
+    margin-bottom: 12px;
+    line-height: 1;
+}
+
+main .product-detail {
+    padding: 24px 0;
+}
+
+main .item-qty .qty {
+    width: 60px;
+    height: 19px;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #939C9F;
+}
+
+main .item-qty .qty-btn {
+
+    width: 40px;
+    height: 48px;
+    background: #EDF1F2;
+    border-radius: 4px;
+    border: none;
+}
+
+main .item-qty input {
+    width: 40px;
+    height: 48px;
+    border: none;
+    text-align: center;
+}
+
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+main .buy-options {
+    padding-top: 20px;
+}
+
+main .card {
+    min-height: 60px;
+    cursor: pointer;
+    height: 60px;
+    width: 124px;
+    border-radius: 6px;
+    font-family: HK Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #D8E0E2
+}
+
+main .card .btn-label {
+    width: 100%;
+    color: #545C5F;
+    margin-bottom: 0px;
+    font-family: HK Grotesk;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 8% 2%;
+
+}
+
+main .card:active,
+.card:focus {
+    box-shadow: 0 0 0 1px #202324;
+}
+
+
+main .delivery-rules {
+
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #545C5F;
+    display: inline-flex;
+}
+
+main .delivery-rules img {
+    height: 16px;
+    width: 22px;
+    margin: 5px 5px 0 0px;
+}
+
+main .btn-primary {
+    border: none;
+}
+
+main .btn-primary:hover,
+main .btn-primary:focus,
+main .btn-primary:active,
+main .btn-primary:target,
+main .btn-primary:visited,
+main .btn-primary:focus-visible,
+main .btn-primary:active:focus {
+    border: none;
+    color: #fff;
+    background: #00BA74;
+    border-color: #00BA74;
+    box-shadow: none;
+}
+
+main .custom-indicators .img-fluid {
+    height: 56px !important;
+    width: 56px !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .main-right {
+        margin-top: 65px;
+    }
+
+    .main-right-content,
+    header .header-details,
+    header .header-title {
+        width: auto;
+        height: auto;
+    }
+
+    main .custom-indicators .img-fluid {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .header-content-right {
+        padding: 0;
+        position: absolute;
+        opacity: 0.1;
+        width: auto;
+    }
+
+    .dot-images {
+        display: none;
+    }
+
+    .header-img {
+        height: 530px;
+    }
+
+    .card {
+        width: 100% !important;
+
+    }
+
+    .btn-label {
+        padding: 0 !important;
+    }
+}
