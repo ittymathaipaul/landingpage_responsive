@@ -551,8 +551,29 @@ main .custom-indicators .img-fluid {
     .btn-label {
         padding: 0 !important;
     }
+
     .carousel-item img {
         width: 300px !important;
         height: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    main .card {
+        width: 100px;
+    }
+    main .custom-indicators .img-fluid {
+        height: 40px !important;
+        width: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    main .card {
+        width: 80px;
+    }
+    main .custom-indicators .img-fluid {
+        height: 30px !important;
+        width: 30px !important;
     }
 }
