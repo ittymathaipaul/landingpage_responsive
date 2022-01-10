@@ -551,4 +551,8 @@ main .custom-indicators .img-fluid {
     .btn-label {
         padding: 0 !important;
     }
+    .carousel-item img {
+        width: fit-content;
+        height: fit-content;
+    }
 }
