@@ -562,9 +562,14 @@ main .custom-indicators .img-fluid {
     main .card {
         width: 100px;
     }
+
     main .custom-indicators .img-fluid {
         height: 40px !important;
         width: 40px !important;
+    }
+
+    main .desc-sub-section img {
+        height: fit-content;
     }
 }
 
@@ -572,6 +577,7 @@ main .custom-indicators .img-fluid {
     main .card {
         width: 80px;
     }
+
     main .custom-indicators .img-fluid {
         height: 30px !important;
         width: 30px !important;
