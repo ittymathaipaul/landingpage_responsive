@@ -552,7 +552,7 @@ main .custom-indicators .img-fluid {
         padding: 0 !important;
     }
     .carousel-item img {
-        width: fit-content;
-        height: fit-content;
+        width: 300px !important;
+        height: 300px !important;
     }
 }
